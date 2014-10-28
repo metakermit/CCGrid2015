@@ -1,7 +1,7 @@
 Elastic-memory controller
 =================================================
 
-This folder contains source code associated to the following article submitted to [CCGrid2015](http://cloud.siat.ac.cn/ccgrid2015/): 
+This folder contains source code associated with the following article submitted to [CCGrid2015](http://cloud.siat.ac.cn/ccgrid2015/): 
 > Soodeh Farokhi, Pooyan Jamshidi, Drazen Lucanin and Ivona Brandic; "Performance Adaptation of Cloud-based Applications via Memory Elasticity: A Control-theoretic Approach". 
 
 Usage 
