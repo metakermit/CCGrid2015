@@ -11,8 +11,6 @@ The evaluation process is started with feeding the workload traces into the http
 
 Sructure
 ================================================
-The [workload folder](https://github.com/Soodeh/CCGrid2015/tree/master/Workloads) includes two iPython notebooks, each for different workload trace which is used at the experimental evaluation of this paper. Each notebook consists of the preparation code of the used workloads. 
-
-Afterwards, we used the scripts at the [script folder](https://github.com/Soodeh/CCGrid2015/tree/master/httpmon-scripts) as the input of httpmon tool.
+The [workload folder](https://github.com/Soodeh/CCGrid2015/tree/master/Workloads) includes two iPython notebooks, each for different workload trace which is used at the experimental evaluation of this paper. Each notebook consists of the preparation code of the used workloads. Afterwards, we used the scripts at the [script folder](https://github.com/Soodeh/CCGrid2015/tree/master/httpmon-scripts) as the input of httpmon tool.
 
 For questions or comments, please contact Soodeh Farokhi <soodeh.farokhi@tuwien.ac.at>.
