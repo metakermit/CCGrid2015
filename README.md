@@ -6,9 +6,13 @@ This folder contains source code associated to the following article submitted t
 
 Usage 
 ================================================
+The experimental evalution of this paper, [httpmon tool](https://github.com/cloud-control/httpmon) is responsible to send the [prepared workload traces](https://github.com/Soodeh/CCGrid2015/tree/master/Workloads) and monitor the application response time. The server side is [RUBBoS benchmark application](https://github.com/cristiklein/brownout/tree/rubbos-icse2014/PHP) controlled by the elastic-memory controller. 
+The evaluation process is started with feeding the workload traces into the httpmon by two [used scripts](https://github.com/Soodeh/CCGrid2015/tree/master/httpmon-scripts), and based on the workload values at each iteration, httpmon emulates a specific number of concurrent users to send the http GET requests to RUBBoS, and meanwhile calculates the requests' response time statistics of concurrent users at each iteration. 
 
+Sructure
+================================================
 The [workload folder](https://github.com/Soodeh/CCGrid2015/tree/master/Workloads) includes two iPython notebooks, each for different workload trace which is used at the experimental evaluation of this paper. Each notebook consists of the preparation code of the used workloads. 
 
-Afterwards, we used the scripts at the [script folder](https://github.com/Soodeh/CCGrid2015/tree/master/httpmon-scripts) as the input of [httpmon tool](https://github.com/cloud-control/httpmon) as a workload generator to send http GET request to the [RUBBoS benchmark application](https://github.com/cristiklein/brownout/tree/rubbos-icse2014/PHP).
+Afterwards, we used the scripts at the [script folder](https://github.com/Soodeh/CCGrid2015/tree/master/httpmon-scripts) as the input of httpmon tool.
 
-For questions or comments, please contact Soodeh Farokhi <firstname.lastname@tuwien.ac.at>.
+For questions or comments, please contact Soodeh Farokhi <soodeh.farokhi@tuwien.ac.at>.
