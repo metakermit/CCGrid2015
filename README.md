@@ -2,7 +2,10 @@ Elastic-memory controller
 =================================================
 
 This folder contains source code associated to the following article submitted to [CCGrid2015](http://cloud.siat.ac.cn/ccgrid2015/): 
-> Performance Adaptation of Cloud-based Applications via Memory Elasticity: A Control-theoretic Approach. 
+> Soodeh Farokhi, Pooyan Jamshidi, Drazen Lucanin and Ivona Brandic; "Performance Adaptation of Cloud-based Applications via Memory Elasticity: A Control-theoretic Approach". 
+
+Usage 
+================================================
 
 The [workload folder](https://github.com/Soodeh/CCGrid2015/tree/master/Workloads) includes two iPython notebooks, each for different workload trace which is used at the experimental evaluation of this paper. Each notebook consists of the preparation code of the used workloads. 
 
